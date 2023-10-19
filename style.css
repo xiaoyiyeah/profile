@@ -1,0 +1,112 @@
+body {
+  background-color: rgb(120, 174, 196);
+  font-family:'Courier New', Courier, monospace;
+  color:rgb(14, 70, 92);
+  font-size: 30px;
+  line-height: 30px;
+}
+h1 {
+  color: rgb(64, 99, 148);
+  font-family:'Courier New', Courier, monospace;
+  font-size: 40px;
+  line-height: 80px;
+}
+
+h2 {
+  color: rgb(64, 99, 148);
+  font-family:'Courier New', Courier, monospace;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+a {
+  color: rgb(64, 99, 148);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(188, 213, 234);
+  text-decoration: underline;
+}
+
+.container {
+  background-color:beige;
+  margin: 30px auto;      /* Set automatic margins on right/left */
+  padding: 50px
+}
+
+.card {
+  background-color:beige;
+  border: 2px solid rgb(80, 136, 160);
+  width: 900px;        /* Set the width */
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 10px rgba(0,0,0,.1);
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 300px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.pic-center {
+  display: grid;
+  place-items: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 10px 40px;
+  padding-left: 0;
+}
+
+@media (max-width: 1300px) {
+  /* For a screen < 1200px, this CSS will be read */
+  .container {
+    width: 1000px;
+  }
+  .card {
+    width: 900px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 700px;
+  }
+  .card {
+    width: 630px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+  .card {
+    width: 450px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+  .card {
+    width: 270px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    width: 200px;
+  }
+  .card {
+    width: 180px;
+  }
+}
